@@ -125,7 +125,7 @@ function App() {
       {Boolean(quests.length) && (
         <Title
           quest={quests[0]}
-          restQuestsLength={quests.length}
+          restQuestsLength={TOTAL_QUEST - quests.length + 1}
           totalQuest={TOTAL_QUEST}
           scores={scores}
         />
