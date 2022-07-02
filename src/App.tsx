@@ -6,7 +6,7 @@ import { Title } from './components/Title';
 import { WrongAlert } from './components/WrongAlert';
 
 function App() {
-  const TOTAL_QUEST = 2;
+  const TOTAL_QUEST = 10;
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [onPress, setOnPress] = useState<boolean>(false);
   const [ctx, setCtx] = useState<CanvasRenderingContext2D | null>(null);
