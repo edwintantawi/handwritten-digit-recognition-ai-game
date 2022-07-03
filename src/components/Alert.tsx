@@ -1,10 +1,10 @@
 import { FC } from 'react';
 
 interface IWrongAlert {
-  answer: number;
+  answer: number | string;
 }
 
-const WrongAlert: FC<IWrongAlert> = ({ answer }) => {
+const Alert: FC<IWrongAlert> = ({ answer }) => {
   return (
     <div className="flex flex-col p-4 gap-4 border border-gray-300 bg-red-500 text-white rounded-lg text-xs md:text-base text-center">
       <p>
@@ -15,4 +15,4 @@ const WrongAlert: FC<IWrongAlert> = ({ answer }) => {
   );
 };
 
-export { WrongAlert };
+export { Alert };
