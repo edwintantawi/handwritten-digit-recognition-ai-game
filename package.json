@@ -1,5 +1,5 @@
 {
-  "name": "react-belajar-angka",
+  "name": "handwritten-digit-recognition",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
